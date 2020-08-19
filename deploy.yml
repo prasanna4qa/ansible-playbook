@@ -6,6 +6,7 @@
     stat:
       path: /tmp/devops
       register: demo
+      ignore_errros: yes
   - name: delete the folder
     file:
       path: /tmp/devops
